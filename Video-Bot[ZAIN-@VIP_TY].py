@@ -10,9 +10,9 @@ try:
 except ImportError:
     os.system("pip install pyud")
 
-api_id = '21243948'
-api_hash = '24bb23cd54ce9cb9e5fe0c22dfe0a333'
-bot_token = '7155649090:AAEi2h2DNtq2O0fbO0CTlVyUqgtxeoMo21g'
+api_id = 'Your Api'
+api_hash = 'Your Hash'
+bot_token = 'Your Token'
 
 client = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 
